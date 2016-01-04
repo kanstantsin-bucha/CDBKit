@@ -6,9 +6,9 @@
 /* weak and strong */
 
 #define varUsingObjCDB(modifier, ref, obj) modifier typeof(obj) ref = obj
-#define WeakCDB(weakRef) varUsingObjCDB(__weak, weakRef, self)
-#define WeakObjCDB(weakRef, obj) varUsingObjCDB(__weak, weakRef, obj);
-#define StrongObjCDB(strongRef, obj) varUsingObjCDB(__strong, strongRef, obj);
+#define weakCDB(weakRef) varUsingObjCDB(__weak, weakRef, self)
+#define weakObjCDB(weakRef, obj) varUsingObjCDB(__weak, weakRef, obj);
+#define strongObjCDB(strongRef, obj) varUsingObjCDB(__strong, strongRef, obj);
 
 /* colors */
 
