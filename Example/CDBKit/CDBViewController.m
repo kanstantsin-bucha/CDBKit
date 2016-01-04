@@ -1,29 +1,53 @@
-//
-//  CDBViewController.m
-//  CDBKit
-//
-//  Created by yocaminobien on 01/04/2016.
-//  Copyright (c) 2016 yocaminobien. All rights reserved.
-//
+
 
 #import "CDBViewController.h"
 
+@import CDBKit;
+
+
 @interface CDBViewController ()
+
+@property (copy, nonatomic) CDBArrayErrorCompletion completion;
 
 @end
 
+
 @implementation CDBViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    DLogCDB(@"Debug log");
+    
+    RLogCDB(YES, @"Verbose log on");
+    
+    RLogCDB(NO, @"Verbose log off");
+    
+    WeakCDB(weakSelf);
+    self.completion = ^(NSArray * _Nullable array, NSError * _Nullable error) {
+        DLogCDB(@"array : %@", array);
+        
+        UILabel * label = [UILabel new];
+        label.frame = weakSelf.view.frame;
+        label.text = array.lastObject;
+        [weakSelf.view addSubview:label];
+        
+        StrongObjCDB(strongSelf, weakSelf);
+        strongSelf.view.backgroundColor = RGBAColor(250, 150, 250, 0.8);
+    };
+    
+    [self makeArrayWithCompletion:self.completion];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)makeArrayWithCompletion:(CDBArrayErrorCompletion)completion {
+    if (completion != nil) {
+        completion(@[@"string1", LSCDB(CDBViewController_localizedString2)], nil);
+    }
 }
 
 @end

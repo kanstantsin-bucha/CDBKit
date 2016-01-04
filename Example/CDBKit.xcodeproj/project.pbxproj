@@ -21,6 +21,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A4043C231C3A815F00E9338B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4043C221C3A815F00E9338B /* Localizable.strings */; };
 		B3BA8E264212DF1C58B6CDFD /* Pods_CDBKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163AA4A589BAD61CEBAEDE97 /* Pods_CDBKit_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D1650DB5512E1ECFE50DF3CE /* Pods_CDBKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221F7145FD6C34FE74C78572 /* Pods_CDBKit_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -43,7 +44,7 @@
 		2C5EDA20B31B9575FA1D25F7 /* Pods-CDBKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDBKit_Tests/Pods-CDBKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		32D814A3D2B520B4988F2B4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5B19D48C7C46CF885B430E1D /* Pods-CDBKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDBKit_Tests/Pods-CDBKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* CDBKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CDBKit.app; path = CDBKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* CDBKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDBKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -56,7 +57,7 @@
 		6003F5A5195388D20070C39A /* CDBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDBViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* CDBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDBViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = CDBKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* CDBKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDBKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9761DBDAB37EAE4ADC3DD201 /* Pods-CDBKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDBKit_Example/Pods-CDBKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A4043C221C3A815F00E9338B /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		E66210167C48567456BBE991 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,8 +110,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* CDBKit.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* CDBKit_Example.app */,
+				6003F5AE195388D20070C39A /* CDBKit_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +137,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CDBViewController.h */,
 				6003F5A6195388D20070C39A /* CDBViewController.m */,
+				A4043C221C3A815F00E9338B /* Localizable.strings */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -213,7 +216,7 @@
 			);
 			name = CDBKit_Example;
 			productName = CDBKit;
-			productReference = 6003F58A195388D20070C39A /* CDBKit.app */;
+			productReference = 6003F58A195388D20070C39A /* CDBKit_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* CDBKit_Tests */ = {
@@ -234,7 +237,7 @@
 			);
 			name = CDBKit_Tests;
 			productName = CDBKitTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* CDBKit_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -244,7 +247,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CDB;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = yocaminobien;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -279,6 +282,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				A4043C231C3A815F00E9338B /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +456,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -516,6 +521,7 @@
 				GCC_PREFIX_HEADER = "CDBKit/CDBKit-Prefix.pch";
 				INFOPLIST_FILE = "CDBKit/CDBKit-Info.plist";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -531,6 +537,7 @@
 				GCC_PREFIX_HEADER = "CDBKit/CDBKit-Prefix.pch";
 				INFOPLIST_FILE = "CDBKit/CDBKit-Info.plist";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -553,6 +560,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDBKit_Example.app/CDBKit_Example";
 				WRAPPER_EXTENSION = xctest;
@@ -572,6 +580,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CDBKit_Example.app/CDBKit_Example";
 				WRAPPER_EXTENSION = xctest;

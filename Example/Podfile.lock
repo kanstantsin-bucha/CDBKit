@@ -1,0 +1,14 @@
+PODS:
+  - CDBKit (0.0.1)
+
+DEPENDENCIES:
+  - CDBKit (from `../`)
+
+EXTERNAL SOURCES:
+  CDBKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CDBKit: 515c7f64becac7adf1331bd2a9e7014705cbb4b0
+
+COCOAPODS: 0.38.2
