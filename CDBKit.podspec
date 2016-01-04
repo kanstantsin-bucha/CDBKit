@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "yocaminobien" => "yocaminobien@gmail.com" }
   s.source           = { :git => "https://github.com/yocaminobien/CDBKit.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/yocaminobien'
+  s.social_media_url = 'https://twitter.com/yocaminobien'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
     'CDBKit' => ['Pod/Assets/*.png']
   }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
