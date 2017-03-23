@@ -6,7 +6,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 
-@version = "0.0.2"
+@version = "1.0.0"
 
 Pod::Spec.new do |s|
   s.name             = "CDBKit"
@@ -19,15 +19,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-    Use it for logging, localization, inheritance warnings and more.
     Bunch of usful defines and types out of the box.
+    Used for logging, localization, inheritance warnings and more.
                        DESC
 
   s.homepage         = "https://github.com/yocaminobien/CDBKit"
   s.license          = 'MIT'
   s.author           = { "yocaminobien" => "yocaminobien@gmail.com" }
   s.source           = { :git => "https://github.com/yocaminobien/CDBKit.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/yocaminobien'
+  s.social_media_url = 'https://twitter.com/truebucha'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true

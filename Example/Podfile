@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'CDBKit_Example', :exclusive => true do
+target 'CDBKit_Example' do
   pod "CDBKit", :path => "../"
 end
 
-target 'CDBKit_Tests', :exclusive => true do
+target 'CDBKit_Tests' do
   pod "CDBKit", :path => "../"
 
   

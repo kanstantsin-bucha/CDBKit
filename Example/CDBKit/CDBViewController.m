@@ -17,22 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-    DLogCDB(@"Debug log");
     
-    RLogCDB(YES, @"Verbose log on");
-    
-    RLogCDB(NO, @"Verbose log off");
-    
-    WeakCDB(weakSelf);
+    weakCDB(weakSelf);
     self.completion = ^(NSArray * _Nullable array, NSError * _Nullable error) {
-        DLogCDB(@"array : %@", array);
         
         UILabel * label = [UILabel new];
         label.frame = weakSelf.view.frame;
         label.text = array.lastObject;
         [weakSelf.view addSubview:label];
         
-        StrongObjCDB(strongSelf, weakSelf);
+        strongObjCDB(strongSelf, weakSelf);
         strongSelf.view.backgroundColor = RGBAColor(250, 150, 250, 0.8);
     };
     
@@ -46,7 +40,7 @@
 
 - (void)makeArrayWithCompletion:(CDBArrayErrorCompletion)completion {
     if (completion != nil) {
-        completion(@[@"string1", LSCDB(CDBViewController_localizedString2)], nil);
+        completion(@[@"string1", LSD(CDBViewController_localizedString2)], nil);
     }
 }
 
