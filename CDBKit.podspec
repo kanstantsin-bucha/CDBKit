@@ -6,7 +6,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 
-@version = "1.0.0"
+@version = "1.0.1"
 
 Pod::Spec.new do |s|
   s.name             = "CDBKit"
@@ -23,10 +23,10 @@ Pod::Spec.new do |s|
     Used for logging, localization, inheritance warnings and more.
                        DESC
 
-  s.homepage         = "https://github.com/yocaminobien/CDBKit"
+  s.homepage         = "https://github.com/truebucha/CDBKit"
   s.license          = 'MIT'
-  s.author           = { "yocaminobien" => "yocaminobien@gmail.com" }
-  s.source           = { :git => "https://github.com/yocaminobien/CDBKit.git", :tag => s.version.to_s }
+  s.author           = { "truebucha" => "truebucha@gmail.com" }
+  s.source           = { :git => "https://github.com/truebucha/CDBKit.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/truebucha'
 
   s.platform     = :ios, '7.0'
@@ -36,5 +36,4 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

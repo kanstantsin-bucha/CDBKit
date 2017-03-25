@@ -1,5 +1,5 @@
 PODS:
-  - CDBKit (1.0.0)
+  - CDBKit (1.0.1)
 
 DEPENDENCIES:
   - CDBKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CDBKit: bed699957175a939f3935bb24e81e695a56d9f3b
+  CDBKit: a6a979ebc52a9533b70b14d65e1bbaf14b378e34
 
 PODFILE CHECKSUM: 8a4e88df5526935645fd334478c4aadc9bc57182
 

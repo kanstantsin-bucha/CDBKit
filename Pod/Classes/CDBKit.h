@@ -39,6 +39,8 @@ typedef void (^CDBDictionaryErrorCompletion) (NSDictionary * _Nullable dictionar
 typedef void (^CDBObjectErrorCompletion) (id _Nullable object, NSError * _Nullable error);
 typedef void (^CDBStringErrorCompletion) (NSString * _Nullable string, NSError * _Nullable error);
 typedef void (^CDBNumberErrorCompletion) (NSNumber * _Nullable number, NSError * _Nullable error);
+typedef void (^CDBDataErrorCompletion) (NSData * _Nullable number, NSError * _Nullable error);
+typedef void (^CDBImageErrorCompletion) (UIImage * _Nullable number, NSError * _Nullable error);
 
 /* derived classes interface */
 
