@@ -10,3 +10,7 @@
 #endif
 #endif
 
+
+FOUNDATION_EXPORT double Pods_Pod_CDBKit_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Pod_CDBKit_ExampleVersionString[];
+

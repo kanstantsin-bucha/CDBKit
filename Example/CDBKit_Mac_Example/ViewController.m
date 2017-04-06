@@ -1,43 +1,44 @@
+//
+//  ViewController.m
+//  CDBKit_Mac_Example
+//
+//  Created by Bucha Kanstantsin on 4/6/17.
+//  Copyright © 2017 yocaminobien. All rights reserved.
+//
 
+#import "ViewController.h"
+#import <CDBKit/CDBKit.h>
 
-#import "CDBViewController.h"
-
-@import CDBKit;
-
-
-@interface CDBViewController ()
+@interface ViewController ()
 
 @property (copy, nonatomic) CDBArrayErrorCompletion completion;
 
 @end
 
 
-@implementation CDBViewController
+@implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	
+    
     
     weakCDB(weakSelf);
     self.completion = ^(NSArray * _Nullable array, NSError * _Nullable error) {
         
-        UILabel * label = [UILabel new];
+        NSTextField * label = [NSTextField new];
+        [label setEditable:NO];
+        [label setBezeled:NO];
         label.frame = weakSelf.view.frame;
-        label.text = array.lastObject;
-        label.font = [UIFont systemFontOfSize: 50.0];
+        label.placeholderString = array.lastObject;
+        label.font = [NSFont systemFontOfSize: 50.0];
         label.textColor = colorWithHex(@"11bb11");
         [weakSelf.view addSubview:label];
         
         strongObjCDB(strongSelf, weakSelf);
-        strongSelf.view.backgroundColor = colorWithRGB(250, 150, 250);
+        strongSelf.view.layer.backgroundColor = colorWithRGB(250, 150, 250).CGColor;
     };
     
     [self makeArrayWithCompletion:self.completion];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (void)makeArrayWithCompletion:(CDBArrayErrorCompletion)completion {

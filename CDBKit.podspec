@@ -6,7 +6,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 
-@version = "1.0.1"
+@version = "1.1.1"
 
 Pod::Spec.new do |s|
   s.name             = "CDBKit"
@@ -29,11 +29,14 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/truebucha/CDBKit.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/truebucha'
 
-  s.platform     = :ios, '7.0'
+  s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.8'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit'
+  s.ios.frameworks = 'UIKit'
+  s.osx.frameworks = 'AppKit'
+  s.framework = 'Foundation'
 end
