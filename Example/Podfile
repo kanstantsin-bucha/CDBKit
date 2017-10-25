@@ -6,7 +6,7 @@ abstract_target 'Pod' do
     pod 'CDBKit', :path => '../'
     
     target 'CDBKit_Example' do
-        platform :ios, '8.0'
+        platform :ios, '10.0'
         target 'CDBKit_Tests' do
             inherit! :search_paths
         end
