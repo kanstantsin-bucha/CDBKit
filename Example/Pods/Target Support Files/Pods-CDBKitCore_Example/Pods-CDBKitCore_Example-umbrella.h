@@ -10,11 +10,7 @@
 #endif
 #endif
 
-#import "CDBKit.h"
-#import "CDBKitCore.h"
-#import "CDBKitLocalize.h"
-#import "CDBKitUI.h"
 
-FOUNDATION_EXPORT double CDBKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char CDBKitVersionString[];
+FOUNDATION_EXPORT double Pods_CDBKitCore_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_CDBKitCore_ExampleVersionString[];
 

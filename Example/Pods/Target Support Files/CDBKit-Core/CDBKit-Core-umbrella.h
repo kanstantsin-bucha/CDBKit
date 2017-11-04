@@ -1,5 +1,5 @@
 #ifdef __OBJC__
-#import <Cocoa/Cocoa.h>
+#import <UIKit/UIKit.h>
 #else
 #ifndef FOUNDATION_EXPORT
 #if defined(__cplusplus)
@@ -10,10 +10,7 @@
 #endif
 #endif
 
-#import "CDBKit.h"
 #import "CDBKitCore.h"
-#import "CDBKitLocalize.h"
-#import "CDBKitUI.h"
 
 FOUNDATION_EXPORT double CDBKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char CDBKitVersionString[];

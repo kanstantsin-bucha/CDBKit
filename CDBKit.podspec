@@ -6,7 +6,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 
-@version = "1.2.0"
+@version = "1.3.0"
 
 Pod::Spec.new do |s|
   s.name             = "CDBKit"
@@ -33,10 +33,22 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.10'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.ios.frameworks = 'UIKit'
-  s.osx.frameworks = 'AppKit'
+  s.subspec 'Core' do |core|
+      core.source_files = 'Pod/Classes/Core/**/*'
+  end
+
+  s.subspec 'UI' do |ui|
+      ui.source_files = 'Pod/Classes/UI/**/*'
+      ui.ios.frameworks = 'UIKit'
+      ui.osx.frameworks = 'AppKit'
+  end
+
+  s.subspec 'Localize' do |localize|
+      localize.source_files = 'Pod/Classes/Localize/**/*'
+  end
+
+  s.source_files = 'Pod/Classes/CDBKit/**/*'
   s.framework = 'Foundation'
+
 end

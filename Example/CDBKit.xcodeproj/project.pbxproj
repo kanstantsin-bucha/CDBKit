@@ -12,6 +12,12 @@
 		08C1ED031E969415003D7CAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C1ED021E969415003D7CAA /* ViewController.m */; };
 		08C1ED051E969415003D7CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C1ED041E969415003D7CAA /* Assets.xcassets */; };
 		08C1ED081E969415003D7CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C1ED061E969415003D7CAA /* Main.storyboard */; };
+		1214D9951FADEAF600C46D13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1214D9941FADEAF600C46D13 /* AppDelegate.m */; };
+		1214D9981FADEAF600C46D13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1214D9971FADEAF600C46D13 /* ViewController.m */; };
+		1214D99B1FADEAF600C46D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1214D9991FADEAF600C46D13 /* Main.storyboard */; };
+		1214D99D1FADEAF600C46D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1214D99C1FADEAF600C46D13 /* Assets.xcassets */; };
+		1214D9A01FADEAF600C46D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1214D99E1FADEAF600C46D13 /* LaunchScreen.storyboard */; };
+		1214D9A31FADEAF600C46D13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1214D9A21FADEAF600C46D13 /* main.m */; };
 		3EF4D04DCDADADBF23E24559 /* Pods_Pod_CDBKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F30A1B001F20567FC83D190 /* Pods_Pod_CDBKit_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -27,6 +33,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9EA66340DD597F71F24033D6 /* Pods_CDBKitCore_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB63AE338DCC5EB156A05B0 /* Pods_CDBKitCore_Example.framework */; };
 		A4043C231C3A815F00E9338B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4043C221C3A815F00E9338B /* Localizable.strings */; };
 		AF666C347D7E90E03810F415 /* Pods_Pod_CDBKit_Mac_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF7248B9CA1420D989EBE80 /* Pods_Pod_CDBKit_Mac_Example.framework */; };
 		E9DE34E75D4C82E41CCF78E2 /* Pods_CDBKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A666E744FC204DB1BBB04 /* Pods_CDBKit_Tests.framework */; };
@@ -53,11 +60,23 @@
 		08C1ED041E969415003D7CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08C1ED071E969415003D7CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08C1ED091E969415003D7CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D976833B7E16E05195739E4 /* Pods-CDBKitCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBKitCore_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDBKitCore_Example/Pods-CDBKitCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1123720D2D6D2BDD14F60F4F /* CDBKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CDBKit.podspec; path = ../CDBKit.podspec; sourceTree = "<group>"; };
+		1214D9911FADEAF600C46D13 /* CDBKitCore_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDBKitCore_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1214D9931FADEAF600C46D13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1214D9941FADEAF600C46D13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1214D9961FADEAF600C46D13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1214D9971FADEAF600C46D13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1214D99A1FADEAF600C46D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1214D99C1FADEAF600C46D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1214D99F1FADEAF600C46D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1214D9A11FADEAF600C46D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1214D9A21FADEAF600C46D13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D0288ECD4C731403F5E68E9 /* Pods_CDBKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDBKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D814A3D2B520B4988F2B4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		403427B093C9F6535BF18633 /* Pods-CDBKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDBKit_Example/Pods-CDBKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4C1A44D8508822BA004C4D1D /* Pods-Pod-CDBKit_Mac_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-CDBKit_Mac_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pod-CDBKit_Mac_Example/Pods-Pod-CDBKit_Mac_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5BB63AE338DCC5EB156A05B0 /* Pods_CDBKitCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDBKitCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D99BEE0CEB60FE3265D9BEF /* Pods-CDBKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDBKit_Tests/Pods-CDBKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5F30A1B001F20567FC83D190 /* Pods_Pod_CDBKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_CDBKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* CDBKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDBKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +103,7 @@
 		95633EFF04D302F3CF251370 /* Pods-CDBKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDBKit_Tests/Pods-CDBKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A35AE12F7722244FC4076584 /* Pods-Pod-CDBKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pod-CDBKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pod-CDBKit_Example/Pods-Pod-CDBKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A4043C221C3A815F00E9338B /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A9DA4E0F7D8E416B93C558F8 /* Pods-CDBKitCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBKitCore_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDBKitCore_Example/Pods-CDBKitCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B1C5DDDB5DB17BE878B549DC /* Pods-CDBKit_Mac_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBKit_Mac_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDBKit_Mac_Example/Pods-CDBKit_Mac_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CDF7248B9CA1420D989EBE80 /* Pods_Pod_CDBKit_Mac_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pod_CDBKit_Mac_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71316615D355951121B78D7 /* Pods-CDBKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDBKit_Example/Pods-CDBKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +119,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF666C347D7E90E03810F415 /* Pods_Pod_CDBKit_Mac_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1214D98E1FADEAF600C46D13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA66340DD597F71F24033D6 /* Pods_CDBKitCore_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +178,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1214D9921FADEAF600C46D13 /* CDBKitCore_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1214D9931FADEAF600C46D13 /* AppDelegate.h */,
+				1214D9941FADEAF600C46D13 /* AppDelegate.m */,
+				1214D9961FADEAF600C46D13 /* ViewController.h */,
+				1214D9971FADEAF600C46D13 /* ViewController.m */,
+				1214D9991FADEAF600C46D13 /* Main.storyboard */,
+				1214D99C1FADEAF600C46D13 /* Assets.xcassets */,
+				1214D99E1FADEAF600C46D13 /* LaunchScreen.storyboard */,
+				1214D9A11FADEAF600C46D13 /* Info.plist */,
+				1214D9A21FADEAF600C46D13 /* main.m */,
+			);
+			path = CDBKitCore_Example;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +201,7 @@
 				6003F593195388D20070C39A /* Example for CDBKit */,
 				6003F5B5195388D20070C39A /* Tests */,
 				08C1ECFA1E969415003D7CAA /* CDBKit_Mac_Example */,
+				1214D9921FADEAF600C46D13 /* CDBKitCore_Example */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				ACAC49DA678C2853BC13B0F4 /* Pods */,
@@ -169,6 +214,7 @@
 				6003F58A195388D20070C39A /* CDBKit_Example.app */,
 				6003F5AE195388D20070C39A /* CDBKit_Tests.xctest */,
 				08C1ECF91E969415003D7CAA /* CDBKit_Mac_Example.app */,
+				1214D9911FADEAF600C46D13 /* CDBKitCore_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,6 +231,7 @@
 				5F30A1B001F20567FC83D190 /* Pods_Pod_CDBKit_Example.framework */,
 				069BC1F72745F879A1473395 /* Pods_CDBKit_Mac_Example.framework */,
 				CDF7248B9CA1420D989EBE80 /* Pods_Pod_CDBKit_Mac_Example.framework */,
+				5BB63AE338DCC5EB156A05B0 /* Pods_CDBKitCore_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -258,6 +305,8 @@
 				B1C5DDDB5DB17BE878B549DC /* Pods-CDBKit_Mac_Example.release.xcconfig */,
 				4C1A44D8508822BA004C4D1D /* Pods-Pod-CDBKit_Mac_Example.debug.xcconfig */,
 				D9E89721BB28867365B58086 /* Pods-Pod-CDBKit_Mac_Example.release.xcconfig */,
+				A9DA4E0F7D8E416B93C558F8 /* Pods-CDBKitCore_Example.debug.xcconfig */,
+				0D976833B7E16E05195739E4 /* Pods-CDBKitCore_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -283,6 +332,26 @@
 			name = CDBKit_Mac_Example;
 			productName = CDBKit_Mac_Example;
 			productReference = 08C1ECF91E969415003D7CAA /* CDBKit_Mac_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1214D9901FADEAF600C46D13 /* CDBKitCore_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1214D9A41FADEAF600C46D13 /* Build configuration list for PBXNativeTarget "CDBKitCore_Example" */;
+			buildPhases = (
+				75982A46CD0BA96680B3FF1D /* [CP] Check Pods Manifest.lock */,
+				1214D98D1FADEAF600C46D13 /* Sources */,
+				1214D98E1FADEAF600C46D13 /* Frameworks */,
+				1214D98F1FADEAF600C46D13 /* Resources */,
+				37F125848C0CB8F32622AD65 /* [CP] Embed Pods Frameworks */,
+				B3A89D1D0040573CA4EE25B1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDBKitCore_Example;
+			productName = CDBKitCore_Example;
+			productReference = 1214D9911FADEAF600C46D13 /* CDBKitCore_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F589195388D20070C39A /* CDBKit_Example */ = {
@@ -338,7 +407,10 @@
 				TargetAttributes = {
 					08C1ECF81E969415003D7CAA = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 2K9F73F4AY;
+						ProvisioningStyle = Automatic;
+					};
+					1214D9901FADEAF600C46D13 = {
+						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 					};
 					6003F5AD195388D20070C39A = {
@@ -362,6 +434,7 @@
 				6003F589195388D20070C39A /* CDBKit_Example */,
 				6003F5AD195388D20070C39A /* CDBKit_Tests */,
 				08C1ECF81E969415003D7CAA /* CDBKit_Mac_Example */,
+				1214D9901FADEAF600C46D13 /* CDBKitCore_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -373,6 +446,16 @@
 			files = (
 				08C1ED051E969415003D7CAA /* Assets.xcassets in Resources */,
 				08C1ED081E969415003D7CAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1214D98F1FADEAF600C46D13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1214D9A01FADEAF600C46D13 /* LaunchScreen.storyboard in Resources */,
+				1214D99D1FADEAF600C46D13 /* Assets.xcassets in Resources */,
+				1214D99B1FADEAF600C46D13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +547,24 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBKit_Tests/Pods-CDBKit_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		37F125848C0CB8F32622AD65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CDBKitCore_Example/Pods-CDBKitCore_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CDBKit-Core/CDBKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDBKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBKitCore_Example/Pods-CDBKitCore_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		46EA5F474745C632764854A5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -530,6 +631,24 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod-CDBKit_Example/Pods-Pod-CDBKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		75982A46CD0BA96680B3FF1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CDBKitCore_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B0CF28A1904D80A4B7AA693E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -548,6 +667,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod-CDBKit_Mac_Example/Pods-Pod-CDBKit_Mac_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B3A89D1D0040573CA4EE25B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBKitCore_Example/Pods-CDBKitCore_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -558,6 +692,16 @@
 				08C1ED031E969415003D7CAA /* ViewController.m in Sources */,
 				08C1ED001E969415003D7CAA /* main.m in Sources */,
 				08C1ECFD1E969415003D7CAA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1214D98D1FADEAF600C46D13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1214D9981FADEAF600C46D13 /* ViewController.m in Sources */,
+				1214D9A31FADEAF600C46D13 /* main.m in Sources */,
+				1214D9951FADEAF600C46D13 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +742,22 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+		1214D9991FADEAF600C46D13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1214D99A1FADEAF600C46D13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1214D99E1FADEAF600C46D13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1214D99F1FADEAF600C46D13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -631,14 +791,14 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 2K9F73F4AY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = CDBKit_Mac_Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.truebucha.CDBKit-Mac-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.CDBKit-Mac-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = macosx;
@@ -661,18 +821,85 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 2K9F73F4AY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = CDBKit_Mac_Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.truebucha.CDBKit-Mac-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.CDBKit-Mac-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = macosx;
 				VALID_ARCHS = "x86_64 i386";
+			};
+			name = Release;
+		};
+		1214D9A51FADEAF600C46D13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9DA4E0F7D8E416B93C558F8 /* Pods-CDBKitCore_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CDBKitCore_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.CDBKitCore-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		1214D9A61FADEAF600C46D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D976833B7E16E05195739E4 /* Pods-CDBKitCore_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CDBKitCore_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.CDBKitCore-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
@@ -715,7 +942,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "";
@@ -756,7 +983,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -859,6 +1086,15 @@
 			buildConfigurations = (
 				08C1ED0A1E969415003D7CAA /* Debug */,
 				08C1ED0B1E969415003D7CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1214D9A41FADEAF600C46D13 /* Build configuration list for PBXNativeTarget "CDBKitCore_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1214D9A51FADEAF600C46D13 /* Debug */,
+				1214D9A61FADEAF600C46D13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

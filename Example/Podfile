@@ -2,6 +2,12 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 
+
+target 'CDBKitCore_Example' do
+    platform :ios, '10.0'
+    pod 'CDBKit/Core', :path => '../'
+end
+
 abstract_target 'Pod' do
     pod 'CDBKit', :path => '../'
     
@@ -13,6 +19,6 @@ abstract_target 'Pod' do
     end
     
     target 'CDBKit_Mac_Example' do
-        platform :osx, '10.8'
+        platform :osx, '10.10'
     end
 end
