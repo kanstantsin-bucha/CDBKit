@@ -14,6 +14,9 @@
 #import "CDBKitCore.h"
 #import "CDBKitLocalize.h"
 #import "CDBKitUI.h"
+#import "CDBKitCore.h"
+#import "CDBKitLocalize.h"
+#import "CDBKitUI.h"
 
 FOUNDATION_EXPORT double CDBKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char CDBKitVersionString[];
