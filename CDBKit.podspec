@@ -6,7 +6,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 
-@version = "1.4.0"
+@version = "1.4.1"
 
 Pod::Spec.new do |s|
   s.name             = "CDBKit"
@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
       localize.source_files = 'Pod/Classes/Localize/**/*'
   end
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/Classes/*.{h,m}'
   s.framework = 'Foundation'
 
 end

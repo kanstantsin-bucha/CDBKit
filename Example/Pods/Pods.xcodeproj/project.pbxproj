@@ -7,48 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08B374B87ED3377F683DC056FF7E863E /* CDBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A6F11A708659C94A225DC0C647C97295 /* CDBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07178B191F5C8638E900C084CBB2BAA0 /* CDBKitUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2415CF10C656E8CEEF0264ED4AADFB9B /* CDBKitUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08ECB119CA63BAEB27DA38B673DF4F73 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C693125CBFC3F387E2DF90FC137252E /* Cocoa.framework */; };
-		0B1566C03AE71ABEA9023948CBB89CD1 /* CDBKit-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B886E0B9C53D451FA23C73AD6B3857 /* CDBKit-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D1934233FA255CD1E5EC7A8E49B0953 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10997AC0F05E966EBC1E8A2F9F4B60A /* Foundation.framework */; };
 		13A695855E694F03728C9FC82DE331B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5E126981719999D9B58273723FA47E /* Foundation.framework */; };
-		15822A61F74DA7AB36D967C12C8EA2D4 /* CDBKitCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1E3CF5914F5FCC76EBA539F8DDC541 /* CDBKitCore.m */; };
+		15822A61F74DA7AB36D967C12C8EA2D4 /* CDBKitCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9637DD03A4B75A7D605EF2B2F993D673 /* CDBKitCore.m */; };
 		169A55AB4946BA100DCE01835AE9B697 /* Pods-CDBKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5225DABCF65580CD240A622E6773452 /* Pods-CDBKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D6AC97130B4F441D83FE315668999BA /* CDBKit-Core-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71328F4C032B809F82C26D3A251DC1F6 /* CDBKit-Core-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		172F858C6D555E63949C9AE6F1D04790 /* CDBKit-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CF944FC60CE488A46114D9169A8F55C /* CDBKit-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F2F1B5B083AB39D5B07C719E30754F4 /* CDBKit-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E8CFC15FADED18A51DE48C2587154E9 /* CDBKit-macOS-dummy.m */; };
+		2D6AC97130B4F441D83FE315668999BA /* CDBKit-Core-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BBB8E7ED50B80F149E941ED4E897F9 /* CDBKit-Core-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30504D450E2D1088B4D503C3E7ED9F08 /* CDBKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC5963C36FEFF25E29EB85B7BF48668A /* CDBKit-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31FE4787057F512174F4B379A2E7E95E /* Pods-CDBKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BFE1631359B4D291D100FBFAF95DBF /* Pods-CDBKit_Tests-dummy.m */; };
+		384B68A01A16F82318AE194BA7B2D2DF /* CDBKitCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9637DD03A4B75A7D605EF2B2F993D673 /* CDBKitCore.m */; };
 		4CDAC9EA7982A3C7E640E0159AE8FE19 /* Pods-Pod-CDBKit_Mac_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF429C554C003E0385EAA9907A74A72B /* Pods-Pod-CDBKit_Mac_Example-dummy.m */; };
 		4DD3C181880C01B03C8BFA4BAB7DDE45 /* Pods-Pod-CDBKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E4418BDDB9820746AE922426FFA670 /* Pods-Pod-CDBKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5628A5805430F2F39831136A5F4D2E67 /* CDBKitCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1E3CF5914F5FCC76EBA539F8DDC541 /* CDBKitCore.m */; };
 		56C8E1A35D83BA5C96E4CE8071018D82 /* Pods-Pod-CDBKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A01EE6B76A049FC038E38824F7814916 /* Pods-Pod-CDBKit_Example-dummy.m */; };
+		5D3344688C57DA3116345460EC587498 /* CDBKitUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D23BF95ED18A46F2AE4A4AB11C94DA /* CDBKitUI.m */; };
 		5F546EA711B3D4F5B2A0C6F293F204BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10997AC0F05E966EBC1E8A2F9F4B60A /* Foundation.framework */; };
-		6EE08B855D3D9CE5D360C94E17E52289 /* CDBKitUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8A857E8F7F89A0A7BA3A6A29041C2 /* CDBKitUI.m */; };
-		71A518B915D53A7E793187958D5CD714 /* CDBKitUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E8A857E8F7F89A0A7BA3A6A29041C2 /* CDBKitUI.m */; };
-		7A8C5535A3436F416F9F6B3EC9476163 /* CDBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0505305E2AE211EBBE20E7904BA5B071 /* CDBKit.m */; };
-		89A72726C7B5A475A2980D3F3C523871 /* CDBKit-Core-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CFE13452310C180CE6D1BE02ED9A73 /* CDBKit-Core-dummy.m */; };
-		8DA6015AD91AE6B5A2131B1D66277961 /* CDBKitCore.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CF32575D51B4295FEC70F315260DC7 /* CDBKitCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		901AC20B5C1ED2A8406378395AC307B0 /* CDBKitUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0BB2D739CA8A0861065103414AAFB2 /* CDBKitUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96385C5F930EF4F9EE9BB1DCCDC77662 /* CDBKitCore.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CF32575D51B4295FEC70F315260DC7 /* CDBKitCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C0BB510792CAB5FFE95C98484ACDC31 /* CDBKitCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1E3CF5914F5FCC76EBA539F8DDC541 /* CDBKitCore.m */; };
-		A3A8AE1EB635799E50703870A5ADD1A4 /* CDBKit-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF3B4157B622F00D791A41B5BF046A9 /* CDBKit-macOS-dummy.m */; };
-		B1230F9498A1E5026EF151E553BC3E9A /* CDBKitLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E66CF28A64DC28775C15309A7F1BD8 /* CDBKitLocalize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6A54EC20DE999E9504362D47235A6B1 /* CDBKitLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = 87E66CF28A64DC28775C15309A7F1BD8 /* CDBKitLocalize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C00178E748FB638401B0B2E75900EC3D /* CDBKitLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 951D45DBEA98E093C970607EEA9F6BE7 /* CDBKitLocalize.m */; };
-		C2AC75F5C870E3B8A70641AEF43B3877 /* CDBKitCore.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CF32575D51B4295FEC70F315260DC7 /* CDBKitCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B37582C872E63FAA9229132EB98297 /* CDBKitCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3788BB0E8ED1E76C41EAC1F6F6F420DB /* CDBKitCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A72726C7B5A475A2980D3F3C523871 /* CDBKit-Core-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CABD294AB2F84CED74D05B18894F30 /* CDBKit-Core-dummy.m */; };
+		96385C5F930EF4F9EE9BB1DCCDC77662 /* CDBKitCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3788BB0E8ED1E76C41EAC1F6F6F420DB /* CDBKitCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98A70783902AF58680DD7AD86256A526 /* CDBKitUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2415CF10C656E8CEEF0264ED4AADFB9B /* CDBKitUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C5504F7E8D7BDE36949027FDBCEA806 /* CDBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4641F4AD66FE8870FED10A9E3C89EF6F /* CDBKit.m */; };
+		A1B64D1BC271F0A91550B9F6C6CF7A07 /* CDBKitLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = A921B18C39BFD636F1A9AFEB8866AEAD /* CDBKitLocalize.m */; };
+		A59BA4DB4BD24D8A9660FEABA3A07D0D /* CDBKitLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = 25777C40748A4C127CA4FB29BD718E10 /* CDBKitLocalize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A68E414C1700CE82189598847FB15CD5 /* CDBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E19CDA6D20F15DBC73A4F936F3009E /* CDBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B58916520270DA1D97EAF112A2556D14 /* CDBKitUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D23BF95ED18A46F2AE4A4AB11C94DA /* CDBKitUI.m */; };
+		B74D781CD0608787246F16C4130FEEAD /* CDBKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46895EA9E6C3A45E5996F80B892BEDC8 /* CDBKit-iOS-dummy.m */; };
+		CFB8D98AAD893A1DD4AB769CB27B96DF /* CDBKitLocalize.h in Headers */ = {isa = PBXBuildFile; fileRef = 25777C40748A4C127CA4FB29BD718E10 /* CDBKitLocalize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D19EBF19E529151FDEC2E49AE2468B7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10997AC0F05E966EBC1E8A2F9F4B60A /* Foundation.framework */; };
 		D34BDDA807DAB689412CD5A44452F413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10997AC0F05E966EBC1E8A2F9F4B60A /* Foundation.framework */; };
+		D939856A5EF1BF97679EF26F5BAB4539 /* CDBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E19CDA6D20F15DBC73A4F936F3009E /* CDBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF94B401365287057CE62154B5FDA26A /* Pods-CDBKitCore_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E76BFBB65B86C11384590E90EA7FA82F /* Pods-CDBKitCore_Example-dummy.m */; };
-		E1DF003C67577F5790BED1672E9A58F8 /* CDBKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A6F11A708659C94A225DC0C647C97295 /* CDBKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2709F2C6BA367168569CC1416C8E520 /* CDBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4641F4AD66FE8870FED10A9E3C89EF6F /* CDBKit.m */; };
 		E4A0AD041ED1803AEE16E8A1032FA2CE /* Pods-CDBKitCore_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 091E8B03140D36F77AA8B1F5FAB8D1C6 /* Pods-CDBKitCore_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4C405879FD08599DC1B537DE71B4CAB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FF83F9421388185ECAD0F35144A68C8 /* AppKit.framework */; };
-		E59521FAC593049A7CEA8C9E9C0C4A6A /* CDBKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0505305E2AE211EBBE20E7904BA5B071 /* CDBKit.m */; };
 		E5D411FFF3098DE964695F7CD39E807A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C693125CBFC3F387E2DF90FC137252E /* Cocoa.framework */; };
-		EC033F9D87162557E56A0C47ED27008D /* CDBKitLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = 951D45DBEA98E093C970607EEA9F6BE7 /* CDBKitLocalize.m */; };
+		E99453F5F9526FC42E75CED7398264DC /* CDBKitCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9637DD03A4B75A7D605EF2B2F993D673 /* CDBKitCore.m */; };
+		ECE516AEA89193841A505E6077C236CB /* CDBKitCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3788BB0E8ED1E76C41EAC1F6F6F420DB /* CDBKitCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EECE3066DCC7C54F76FB6B515797E143 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10997AC0F05E966EBC1E8A2F9F4B60A /* Foundation.framework */; };
-		F0680E213AD2C9553441587ABB0EA1C1 /* CDBKitUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0BB2D739CA8A0861065103414AAFB2 /* CDBKitUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3E53C184F10230FFB5FFD2792887085 /* Pods-Pod-CDBKit_Mac_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02512A8544742E88E7E2DC894F112688 /* Pods-Pod-CDBKit_Mac_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F597EDC0401527F7CF496A717F1BAE27 /* CDBKitLocalize.m in Sources */ = {isa = PBXBuildFile; fileRef = A921B18C39BFD636F1A9AFEB8866AEAD /* CDBKitLocalize.m */; };
 		F80EE6D3CB37F1389EA0CCAE62C8F43B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F0B7077C175C50A42071D5F3C4300A /* UIKit.framework */; };
-		F8E77808EAC0F8FE6DB3E3C9A79BA6DD /* CDBKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A61657A9445356A9D015D30B162483F8 /* CDBKit-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEF07F627C12DB0C142AF79DCC783C63 /* CDBKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D2936FBE8D676D5C560459C7DC9BDE /* CDBKit-iOS-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,80 +77,80 @@
 
 /* Begin PBXFileReference section */
 		02512A8544742E88E7E2DC894F112688 /* Pods-Pod-CDBKit_Mac_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pod-CDBKit_Mac_Example-umbrella.h"; sourceTree = "<group>"; };
-		0505305E2AE211EBBE20E7904BA5B071 /* CDBKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDBKit.m; path = Pod/Classes/CDBKit.m; sourceTree = "<group>"; };
 		091E8B03140D36F77AA8B1F5FAB8D1C6 /* Pods-CDBKitCore_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDBKitCore_Example-umbrella.h"; sourceTree = "<group>"; };
 		09CACF62A13BE20F99C84C76B760A7BA /* CDBKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDBKit.framework; path = "CDBKit-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D23BF95ED18A46F2AE4A4AB11C94DA /* CDBKitUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDBKitUI.m; path = Pod/Classes/UI/CDBKitUI.m; sourceTree = "<group>"; };
 		13D37D5226BDE5A007C15739184CF04B /* Pods-CDBKitCore_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDBKitCore_Example-resources.sh"; sourceTree = "<group>"; };
 		152C54822D8122B9EDEA03023E9D8CDD /* Pods-CDBKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDBKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		16CFE13452310C180CE6D1BE02ED9A73 /* CDBKit-Core-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDBKit-Core-dummy.m"; sourceTree = "<group>"; };
 		17CE46270FC841451CDFC119697F1E0C /* Pods-Pod-CDBKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pod-CDBKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1A0BB2D739CA8A0861065103414AAFB2 /* CDBKitUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDBKitUI.h; sourceTree = "<group>"; };
-		1BF3B4157B622F00D791A41B5BF046A9 /* CDBKit-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CDBKit-macOS-dummy.m"; path = "../CDBKit-macOS/CDBKit-macOS-dummy.m"; sourceTree = "<group>"; };
+		1AEB416842716CCDC0106EF8672ADD08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CDBKit-macOS/Info.plist"; sourceTree = "<group>"; };
+		1E8CFC15FADED18A51DE48C2587154E9 /* CDBKit-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CDBKit-macOS-dummy.m"; path = "../CDBKit-macOS/CDBKit-macOS-dummy.m"; sourceTree = "<group>"; };
 		2206E2B23F24A0621AABFF688E9C502F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2415CF10C656E8CEEF0264ED4AADFB9B /* CDBKitUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDBKitUI.h; path = Pod/Classes/UI/CDBKitUI.h; sourceTree = "<group>"; };
+		25777C40748A4C127CA4FB29BD718E10 /* CDBKitLocalize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDBKitLocalize.h; path = Pod/Classes/Localize/CDBKitLocalize.h; sourceTree = "<group>"; };
 		28D864E643B8D203058A97095C4F42C4 /* Pods_CDBKitCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDBKitCore_Example.framework; path = "Pods-CDBKitCore_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DC8184BED90FA31BAB73704A226DC57 /* CDBKit-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "CDBKit-macOS.modulemap"; path = "../CDBKit-macOS/CDBKit-macOS.modulemap"; sourceTree = "<group>"; };
+		2BE81DD4E3E1795577A7D1D97987D51D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF944FC60CE488A46114D9169A8F55C /* CDBKit-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CDBKit-macOS-umbrella.h"; path = "../CDBKit-macOS/CDBKit-macOS-umbrella.h"; sourceTree = "<group>"; };
+		2D1FD418D905D10D682265281CC11857 /* CDBKit-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CDBKit-macOS-prefix.pch"; path = "../CDBKit-macOS/CDBKit-macOS-prefix.pch"; sourceTree = "<group>"; };
 		3417CD0923B838230CA5374970B2BB8C /* Pods-CDBKitCore_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDBKitCore_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3788BB0E8ED1E76C41EAC1F6F6F420DB /* CDBKitCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDBKitCore.h; path = Pod/Classes/Core/CDBKitCore.h; sourceTree = "<group>"; };
 		3C63DAD67A49A9A29A01A3D0DD88E446 /* Pods-CDBKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CDBKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		40880E54237BD44DBE37C20EC0F68828 /* Pods-Pod-CDBKit_Mac_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pod-CDBKit_Mac_Example-resources.sh"; sourceTree = "<group>"; };
+		42CABD294AB2F84CED74D05B18894F30 /* CDBKit-Core-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDBKit-Core-dummy.m"; sourceTree = "<group>"; };
+		4641F4AD66FE8870FED10A9E3C89EF6F /* CDBKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDBKit.m; path = Pod/Classes/CDBKit.m; sourceTree = "<group>"; };
+		46895EA9E6C3A45E5996F80B892BEDC8 /* CDBKit-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CDBKit-iOS-dummy.m"; path = "../CDBKit-iOS/CDBKit-iOS-dummy.m"; sourceTree = "<group>"; };
 		470CE644974126257542B5AE74D7939B /* Pods-Pod-CDBKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pod-CDBKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		55BFB848DB77DB1FE2E2DFDCCDF10E71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CDBKit-macOS/Info.plist"; sourceTree = "<group>"; };
 		5B57A5FC40A9DC269EBD21BF442468A4 /* Pods_Pod_CDBKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Pod_CDBKit_Example.framework; path = "Pods-Pod-CDBKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF83F9421388185ECAD0F35144A68C8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		60FBA94EC42CCED06184D6CDAB884DEF /* Pods-Pod-CDBKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Pod-CDBKit_Example.modulemap"; sourceTree = "<group>"; };
-		628BA9B8635BA123DA0C3E62120932B4 /* CDBKit-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "CDBKit-iOS.modulemap"; path = "../CDBKit-iOS/CDBKit-iOS.modulemap"; sourceTree = "<group>"; };
-		629091E635A78B4895EAE3D9F000CB3B /* CDBKit-Core.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CDBKit-Core.xcconfig"; sourceTree = "<group>"; };
-		63C2DD3D3549CB0ADA07EB9D6796EB8F /* CDBKit-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CDBKit-macOS.xcconfig"; path = "../CDBKit-macOS/CDBKit-macOS.xcconfig"; sourceTree = "<group>"; };
 		6537F6DE40A65ADA6540D0C35B21118F /* Pods_Pod_CDBKit_Mac_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Pod_CDBKit_Mac_Example.framework; path = "Pods-Pod-CDBKit_Mac_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DA874486612C4F81E3214EEEC35D40 /* CDBKit-Core.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CDBKit-Core.xcconfig"; sourceTree = "<group>"; };
 		6BD5197E2C0042EEFF793ECB90DEE5AB /* Pods-CDBKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CDBKit_Tests.modulemap"; sourceTree = "<group>"; };
 		7003EABE0088F7A0085F2EBF5C8CF334 /* CDBKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDBKit.framework; path = "CDBKit-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		702B248C2B4DA7689C154C041EA33A6C /* Pods-Pod-CDBKit_Mac_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pod-CDBKit_Mac_Example.release.xcconfig"; sourceTree = "<group>"; };
-		70B86EFFE022014F337E8ED6B7D01FD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CDBKit-iOS/Info.plist"; sourceTree = "<group>"; };
-		70FB462053516FF5165996B276E4DB22 /* CDBKit-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CDBKit-iOS.xcconfig"; path = "../CDBKit-iOS/CDBKit-iOS.xcconfig"; sourceTree = "<group>"; };
-		71328F4C032B809F82C26D3A251DC1F6 /* CDBKit-Core-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDBKit-Core-umbrella.h"; sourceTree = "<group>"; };
 		72033FE2ED73B5EAAAFDD451FD673970 /* CDBKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDBKit.framework; path = "CDBKit-Core.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72632B533D51661C975B68F150FA44DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72ABA6E7942E84A7AC0358FDDD1A4B42 /* Pods-CDBKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDBKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7478AF9A151F7A4F3EB6E24AD4F82364 /* Pods-Pod-CDBKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pod-CDBKit_Example-resources.sh"; sourceTree = "<group>"; };
-		7A8CB3F619C7BE55471E1B52C0238FE8 /* CDBKit-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CDBKit-iOS-prefix.pch"; path = "../CDBKit-iOS/CDBKit-iOS-prefix.pch"; sourceTree = "<group>"; };
-		87E66CF28A64DC28775C15309A7F1BD8 /* CDBKitLocalize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDBKitLocalize.h; sourceTree = "<group>"; };
+		7925B301DF8513E71298A831525A77DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CDBKit-iOS/Info.plist"; sourceTree = "<group>"; };
 		882FCA92D1F329C1A5D2641E7984974E /* Pods-Pod-CDBKit_Mac_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pod-CDBKit_Mac_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		88C9C74EFBACBB819CF48DE364062D74 /* Pods-Pod-CDBKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pod-CDBKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		89B886E0B9C53D451FA23C73AD6B3857 /* CDBKit-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CDBKit-macOS-umbrella.h"; path = "../CDBKit-macOS/CDBKit-macOS-umbrella.h"; sourceTree = "<group>"; };
-		8B1E3CF5914F5FCC76EBA539F8DDC541 /* CDBKitCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDBKitCore.m; path = Pod/Classes/Core/CDBKitCore.m; sourceTree = "<group>"; };
+		8C08E153859E5FAF376FCE27B909A7AD /* CDBKit-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CDBKit-macOS.xcconfig"; path = "../CDBKit-macOS/CDBKit-macOS.xcconfig"; sourceTree = "<group>"; };
+		8DF5E1CDA781228D9FD6ADCE5217E53D /* CDBKit-Core-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDBKit-Core-prefix.pch"; sourceTree = "<group>"; };
+		8E5A8C3A20598622B40EB23287941F7A /* CDBKit-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CDBKit-iOS-prefix.pch"; path = "../CDBKit-iOS/CDBKit-iOS-prefix.pch"; sourceTree = "<group>"; };
+		92CE84AE960369583FEDA46668C649C2 /* CDBKit-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "CDBKit-macOS.modulemap"; path = "../CDBKit-macOS/CDBKit-macOS.modulemap"; sourceTree = "<group>"; };
 		930994CE0CF1DD6C0BCBF3D844AAB24F /* Pods-CDBKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDBKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		950D0026FDDCF02C7025C3847BFE9905 /* Pods-Pod-CDBKit_Mac_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Pod-CDBKit_Mac_Example.modulemap"; sourceTree = "<group>"; };
-		951D45DBEA98E093C970607EEA9F6BE7 /* CDBKitLocalize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDBKitLocalize.m; sourceTree = "<group>"; };
+		9637DD03A4B75A7D605EF2B2F993D673 /* CDBKitCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDBKitCore.m; path = Pod/Classes/Core/CDBKitCore.m; sourceTree = "<group>"; };
+		9652AD8BDB5C7E91BCA96F96A61D11BE /* CDBKit-Core.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "CDBKit-Core.modulemap"; sourceTree = "<group>"; };
 		9A59D7259960276859841CEE6547B05C /* Pods-Pod-CDBKit_Mac_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pod-CDBKit_Mac_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9C693125CBFC3F387E2DF90FC137252E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		9D3C7F4682BFBC6AA6F9D4EBF99041A1 /* Pods-CDBKitCore_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CDBKitCore_Example.modulemap"; sourceTree = "<group>"; };
 		A01EE6B76A049FC038E38824F7814916 /* Pods-Pod-CDBKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pod-CDBKit_Example-dummy.m"; sourceTree = "<group>"; };
 		A37090B87F554F041102C685B7AF0A28 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3D2936FBE8D676D5C560459C7DC9BDE /* CDBKit-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CDBKit-iOS-dummy.m"; path = "../CDBKit-iOS/CDBKit-iOS-dummy.m"; sourceTree = "<group>"; };
-		A61657A9445356A9D015D30B162483F8 /* CDBKit-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CDBKit-iOS-umbrella.h"; path = "../CDBKit-iOS/CDBKit-iOS-umbrella.h"; sourceTree = "<group>"; };
-		A6F11A708659C94A225DC0C647C97295 /* CDBKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDBKit.h; path = Pod/Classes/CDBKit.h; sourceTree = "<group>"; };
 		A90059BE975E7ED433D88922C74052E0 /* Pods_CDBKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDBKit_Tests.framework; path = "Pods-CDBKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A921B18C39BFD636F1A9AFEB8866AEAD /* CDBKitLocalize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDBKitLocalize.m; path = Pod/Classes/Localize/CDBKitLocalize.m; sourceTree = "<group>"; };
 		B1CF34DC51B9070FC04ACADE710A0F4D /* Pods-Pod-CDBKit_Mac_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pod-CDBKit_Mac_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1E19CDA6D20F15DBC73A4F936F3009E /* CDBKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDBKit.h; path = Pod/Classes/CDBKit.h; sourceTree = "<group>"; };
 		B8214EA050587259C2EA8072BCA590C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAB851A81E1B94DC8407D5C720E6783A /* Pods-CDBKitCore_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CDBKitCore_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C10997AC0F05E966EBC1E8A2F9F4B60A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C1E4418BDDB9820746AE922426FFA670 /* Pods-Pod-CDBKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pod-CDBKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		C4152FCE07425067D67AF0EDC696DCA5 /* Pods-Pod-CDBKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pod-CDBKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C4E8A857E8F7F89A0A7BA3A6A29041C2 /* CDBKitUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDBKitUI.m; sourceTree = "<group>"; };
-		C53C8EF9610FF81742328F159BB1B5D7 /* CDBKit-Core.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "CDBKit-Core.modulemap"; sourceTree = "<group>"; };
 		CA5E126981719999D9B58273723FA47E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CB9CBAD14158902D588B4AD53516DBD8 /* Pods-CDBKitCore_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDBKitCore_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D00EB319DD04579DFF9B73BCCD8AF25B /* Pods-Pod-CDBKit_Mac_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pod-CDBKit_Mac_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D0BFE1631359B4D291D100FBFAF95DBF /* Pods-CDBKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CDBKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		D42CDBAC6C476997E6C07BCE750D802F /* CDBKit-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CDBKit-macOS-prefix.pch"; path = "../CDBKit-macOS/CDBKit-macOS-prefix.pch"; sourceTree = "<group>"; };
 		D4F0B7077C175C50A42071D5F3C4300A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DB362686D218AF2872273ACB2C55C2F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E31BA722D2579AAC52122CE800624FD6 /* CDBKit-Core-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDBKit-Core-prefix.pch"; sourceTree = "<group>"; };
+		D55B8FC4B458217D77E27ACE25768D0A /* CDBKit-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "CDBKit-iOS.modulemap"; path = "../CDBKit-iOS/CDBKit-iOS.modulemap"; sourceTree = "<group>"; };
+		E1B7C631AE81BF7D8F71EB6FDA845891 /* CDBKit-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CDBKit-iOS.xcconfig"; path = "../CDBKit-iOS/CDBKit-iOS.xcconfig"; sourceTree = "<group>"; };
+		E1BBB8E7ED50B80F149E941ED4E897F9 /* CDBKit-Core-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDBKit-Core-umbrella.h"; sourceTree = "<group>"; };
 		E5225DABCF65580CD240A622E6773452 /* Pods-CDBKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDBKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E6B12778470C4C95FDDE11015C312D36 /* Pods-CDBKitCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDBKitCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E76BFBB65B86C11384590E90EA7FA82F /* Pods-CDBKitCore_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CDBKitCore_Example-dummy.m"; sourceTree = "<group>"; };
-		E8CF32575D51B4295FEC70F315260DC7 /* CDBKitCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CDBKitCore.h; path = Pod/Classes/Core/CDBKitCore.h; sourceTree = "<group>"; };
 		EB4B72C10B873CCCE5C30BB8408C1544 /* Pods-CDBKitCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDBKitCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EC5963C36FEFF25E29EB85B7BF48668A /* CDBKit-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CDBKit-iOS-umbrella.h"; path = "../CDBKit-iOS/CDBKit-iOS-umbrella.h"; sourceTree = "<group>"; };
 		EF429C554C003E0385EAA9907A74A72B /* Pods-Pod-CDBKit_Mac_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pod-CDBKit_Mac_Example-dummy.m"; sourceTree = "<group>"; };
 		F69B359F85F7E54D9085D6CB459F4D64 /* Pods-CDBKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDBKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		FAAF928CE4D88FA0F4D7D83C1169C395 /* Pods-Pod-CDBKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pod-CDBKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -220,15 +220,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B27678918E661ED9E7A381C8CE302BF /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				E8CF32575D51B4295FEC70F315260DC7 /* CDBKitCore.h */,
-				8B1E3CF5914F5FCC76EBA539F8DDC541 /* CDBKitCore.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
 		0FDD20040E6D19A82A7F66FAEDDABD87 /* OS X */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +228,15 @@
 				CA5E126981719999D9B58273723FA47E /* Foundation.framework */,
 			);
 			name = "OS X";
+			sourceTree = "<group>";
+		};
+		0FE0891E040ADA9D538EC5252D39C1EB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3788BB0E8ED1E76C41EAC1F6F6F420DB /* CDBKitCore.h */,
+				9637DD03A4B75A7D605EF2B2F993D673 /* CDBKitCore.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		38665CB8E4B3A4A00A3930F643DF0278 /* Targets Support Files */ = {
@@ -248,42 +248,6 @@
 				51F9824C398162BD3A6298AB4DD28DE8 /* Pods-Pod-CDBKit_Mac_Example */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		406A979836DE7C12A38FC3F4FBB58445 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				1A0BB2D739CA8A0861065103414AAFB2 /* CDBKitUI.h */,
-				C4E8A857E8F7F89A0A7BA3A6A29041C2 /* CDBKitUI.m */,
-			);
-			name = UI;
-			path = Pod/Classes/UI;
-			sourceTree = "<group>";
-		};
-		4626797803C2C4AAB08AF6C06D06B1AA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C53C8EF9610FF81742328F159BB1B5D7 /* CDBKit-Core.modulemap */,
-				629091E635A78B4895EAE3D9F000CB3B /* CDBKit-Core.xcconfig */,
-				16CFE13452310C180CE6D1BE02ED9A73 /* CDBKit-Core-dummy.m */,
-				E31BA722D2579AAC52122CE800624FD6 /* CDBKit-Core-prefix.pch */,
-				71328F4C032B809F82C26D3A251DC1F6 /* CDBKit-Core-umbrella.h */,
-				628BA9B8635BA123DA0C3E62120932B4 /* CDBKit-iOS.modulemap */,
-				70FB462053516FF5165996B276E4DB22 /* CDBKit-iOS.xcconfig */,
-				A3D2936FBE8D676D5C560459C7DC9BDE /* CDBKit-iOS-dummy.m */,
-				7A8CB3F619C7BE55471E1B52C0238FE8 /* CDBKit-iOS-prefix.pch */,
-				A61657A9445356A9D015D30B162483F8 /* CDBKit-iOS-umbrella.h */,
-				2DC8184BED90FA31BAB73704A226DC57 /* CDBKit-macOS.modulemap */,
-				63C2DD3D3549CB0ADA07EB9D6796EB8F /* CDBKit-macOS.xcconfig */,
-				1BF3B4157B622F00D791A41B5BF046A9 /* CDBKit-macOS-dummy.m */,
-				D42CDBAC6C476997E6C07BCE750D802F /* CDBKit-macOS-prefix.pch */,
-				89B886E0B9C53D451FA23C73AD6B3857 /* CDBKit-macOS-umbrella.h */,
-				55BFB848DB77DB1FE2E2DFDCCDF10E71 /* Info.plist */,
-				DB362686D218AF2872273ACB2C55C2F4 /* Info.plist */,
-				70B86EFFE022014F337E8ED6B7D01FD1 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CDBKit-Core";
 			sourceTree = "<group>";
 		};
 		51F9824C398162BD3A6298AB4DD28DE8 /* Pods-Pod-CDBKit_Mac_Example */ = {
@@ -304,10 +268,45 @@
 			path = "Target Support Files/Pods-Pod-CDBKit_Mac_Example";
 			sourceTree = "<group>";
 		};
+		56D0BD1B5723BB7DDE821DF0A0A2020A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2415CF10C656E8CEEF0264ED4AADFB9B /* CDBKitUI.h */,
+				11D23BF95ED18A46F2AE4A4AB11C94DA /* CDBKitUI.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		660EB5BE03EC657093608D4A63B0B744 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9652AD8BDB5C7E91BCA96F96A61D11BE /* CDBKit-Core.modulemap */,
+				68DA874486612C4F81E3214EEEC35D40 /* CDBKit-Core.xcconfig */,
+				42CABD294AB2F84CED74D05B18894F30 /* CDBKit-Core-dummy.m */,
+				8DF5E1CDA781228D9FD6ADCE5217E53D /* CDBKit-Core-prefix.pch */,
+				E1BBB8E7ED50B80F149E941ED4E897F9 /* CDBKit-Core-umbrella.h */,
+				D55B8FC4B458217D77E27ACE25768D0A /* CDBKit-iOS.modulemap */,
+				E1B7C631AE81BF7D8F71EB6FDA845891 /* CDBKit-iOS.xcconfig */,
+				46895EA9E6C3A45E5996F80B892BEDC8 /* CDBKit-iOS-dummy.m */,
+				8E5A8C3A20598622B40EB23287941F7A /* CDBKit-iOS-prefix.pch */,
+				EC5963C36FEFF25E29EB85B7BF48668A /* CDBKit-iOS-umbrella.h */,
+				92CE84AE960369583FEDA46668C649C2 /* CDBKit-macOS.modulemap */,
+				8C08E153859E5FAF376FCE27B909A7AD /* CDBKit-macOS.xcconfig */,
+				1E8CFC15FADED18A51DE48C2587154E9 /* CDBKit-macOS-dummy.m */,
+				2D1FD418D905D10D682265281CC11857 /* CDBKit-macOS-prefix.pch */,
+				2CF944FC60CE488A46114D9169A8F55C /* CDBKit-macOS-umbrella.h */,
+				1AEB416842716CCDC0106EF8672ADD08 /* Info.plist */,
+				2BE81DD4E3E1795577A7D1D97987D51D /* Info.plist */,
+				7925B301DF8513E71298A831525A77DE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CDBKit-Core";
+			sourceTree = "<group>";
+		};
 		711FF0D0E68DB8D45266BBE37BD2CCC9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8BB139A5622C2552F2FC87AB30A8D81A /* CDBKit */,
+				F8FAFE79E1FA59BEEC42F4179B5A5423 /* CDBKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -321,20 +320,6 @@
 				90681C627B9B759B23DC609C1C9A9E1C /* Products */,
 				38665CB8E4B3A4A00A3930F643DF0278 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8BB139A5622C2552F2FC87AB30A8D81A /* CDBKit */ = {
-			isa = PBXGroup;
-			children = (
-				A6F11A708659C94A225DC0C647C97295 /* CDBKit.h */,
-				0505305E2AE211EBBE20E7904BA5B071 /* CDBKit.m */,
-				0B27678918E661ED9E7A381C8CE302BF /* Core */,
-				C97EABFF33C55D00663B2F65F998F107 /* Localize */,
-				4626797803C2C4AAB08AF6C06D06B1AA /* Support Files */,
-				406A979836DE7C12A38FC3F4FBB58445 /* UI */,
-			);
-			name = CDBKit;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		90681C627B9B759B23DC609C1C9A9E1C /* Products */ = {
@@ -369,14 +354,13 @@
 			path = "Target Support Files/Pods-CDBKitCore_Example";
 			sourceTree = "<group>";
 		};
-		C97EABFF33C55D00663B2F65F998F107 /* Localize */ = {
+		BE817A35CAF2874FF793A24484647FD6 /* Localize */ = {
 			isa = PBXGroup;
 			children = (
-				87E66CF28A64DC28775C15309A7F1BD8 /* CDBKitLocalize.h */,
-				951D45DBEA98E093C970607EEA9F6BE7 /* CDBKitLocalize.m */,
+				25777C40748A4C127CA4FB29BD718E10 /* CDBKitLocalize.h */,
+				A921B18C39BFD636F1A9AFEB8866AEAD /* CDBKitLocalize.m */,
 			);
 			name = Localize;
-			path = Pod/Classes/Localize;
 			sourceTree = "<group>";
 		};
 		CD8967092F6E640DA5FB23B13F61B4D1 /* Pods-Pod-CDBKit_Example */ = {
@@ -433,6 +417,20 @@
 			path = "Target Support Files/Pods-CDBKit_Tests";
 			sourceTree = "<group>";
 		};
+		F8FAFE79E1FA59BEEC42F4179B5A5423 /* CDBKit */ = {
+			isa = PBXGroup;
+			children = (
+				B1E19CDA6D20F15DBC73A4F936F3009E /* CDBKit.h */,
+				4641F4AD66FE8870FED10A9E3C89EF6F /* CDBKit.m */,
+				0FE0891E040ADA9D538EC5252D39C1EB /* Core */,
+				BE817A35CAF2874FF793A24484647FD6 /* Localize */,
+				660EB5BE03EC657093608D4A63B0B744 /* Support Files */,
+				56D0BD1B5723BB7DDE821DF0A0A2020A /* UI */,
+			);
+			name = CDBKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -444,15 +442,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0CB98B1DE3ED948F5996B0E424AE0F92 /* Headers */ = {
+		1187A50A3881BFE29BFDD4C2ABBD76F2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B1566C03AE71ABEA9023948CBB89CD1 /* CDBKit-macOS-umbrella.h in Headers */,
-				E1DF003C67577F5790BED1672E9A58F8 /* CDBKit.h in Headers */,
-				C2AC75F5C870E3B8A70641AEF43B3877 /* CDBKitCore.h in Headers */,
-				B6A54EC20DE999E9504362D47235A6B1 /* CDBKitLocalize.h in Headers */,
-				F0680E213AD2C9553441587ABB0EA1C1 /* CDBKitUI.h in Headers */,
+				30504D450E2D1088B4D503C3E7ED9F08 /* CDBKit-iOS-umbrella.h in Headers */,
+				A68E414C1700CE82189598847FB15CD5 /* CDBKit.h in Headers */,
+				ECE516AEA89193841A505E6077C236CB /* CDBKitCore.h in Headers */,
+				CFB8D98AAD893A1DD4AB769CB27B96DF /* CDBKitLocalize.h in Headers */,
+				07178B191F5C8638E900C084CBB2BAA0 /* CDBKitUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1590ECEE90779116E8612CD2470EBBB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172F858C6D555E63949C9AE6F1D04790 /* CDBKit-macOS-umbrella.h in Headers */,
+				D939856A5EF1BF97679EF26F5BAB4539 /* CDBKit.h in Headers */,
+				84B37582C872E63FAA9229132EB98297 /* CDBKitCore.h in Headers */,
+				A59BA4DB4BD24D8A9660FEABA3A07D0D /* CDBKitLocalize.h in Headers */,
+				98A70783902AF58680DD7AD86256A526 /* CDBKitUI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,18 +488,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3E53C184F10230FFB5FFD2792887085 /* Pods-Pod-CDBKit_Mac_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		73E33BB75F270DFB3A5E89ACDC80119F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8E77808EAC0F8FE6DB3E3C9A79BA6DD /* CDBKit-iOS-umbrella.h in Headers */,
-				08B374B87ED3377F683DC056FF7E863E /* CDBKit.h in Headers */,
-				8DA6015AD91AE6B5A2131B1D66277961 /* CDBKitCore.h in Headers */,
-				B1230F9498A1E5026EF151E553BC3E9A /* CDBKitLocalize.h in Headers */,
-				901AC20B5C1ED2A8406378395AC307B0 /* CDBKitUI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,9 +523,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8D8E781E9F130BEF3DB4F6AF81EA1FB /* Build configuration list for PBXNativeTarget "CDBKit-iOS" */;
 			buildPhases = (
-				30B2B90BAF498503A00763BBEC3B7B9F /* Sources */,
+				8C80350F5DF7F9A4528E4301474C67A2 /* Sources */,
 				C0CA5903CF764BF42F4C12C802704360 /* Frameworks */,
-				73E33BB75F270DFB3A5E89ACDC80119F /* Headers */,
+				1187A50A3881BFE29BFDD4C2ABBD76F2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -560,9 +558,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25848D0A9B257FCDB840DA67DA93D787 /* Build configuration list for PBXNativeTarget "CDBKit-macOS" */;
 			buildPhases = (
-				C4C0C9CBC90061BACFA867FCDAD97A87 /* Sources */,
+				C41620FA6F409C0EA7BA8FD9CCBAAB1C /* Sources */,
 				AF62A391E340C2F15DDCC21655978F48 /* Frameworks */,
-				0CB98B1DE3ED948F5996B0E424AE0F92 /* Headers */,
+				1590ECEE90779116E8612CD2470EBBB1 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -684,15 +682,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30B2B90BAF498503A00763BBEC3B7B9F /* Sources */ = {
+		8C80350F5DF7F9A4528E4301474C67A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEF07F627C12DB0C142AF79DCC783C63 /* CDBKit-iOS-dummy.m in Sources */,
-				7A8C5535A3436F416F9F6B3EC9476163 /* CDBKit.m in Sources */,
-				5628A5805430F2F39831136A5F4D2E67 /* CDBKitCore.m in Sources */,
-				EC033F9D87162557E56A0C47ED27008D /* CDBKitLocalize.m in Sources */,
-				71A518B915D53A7E793187958D5CD714 /* CDBKitUI.m in Sources */,
+				B74D781CD0608787246F16C4130FEEAD /* CDBKit-iOS-dummy.m in Sources */,
+				9C5504F7E8D7BDE36949027FDBCEA806 /* CDBKit.m in Sources */,
+				E99453F5F9526FC42E75CED7398264DC /* CDBKitCore.m in Sources */,
+				F597EDC0401527F7CF496A717F1BAE27 /* CDBKitLocalize.m in Sources */,
+				B58916520270DA1D97EAF112A2556D14 /* CDBKitUI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,15 +702,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4C0C9CBC90061BACFA867FCDAD97A87 /* Sources */ = {
+		C41620FA6F409C0EA7BA8FD9CCBAAB1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3A8AE1EB635799E50703870A5ADD1A4 /* CDBKit-macOS-dummy.m in Sources */,
-				E59521FAC593049A7CEA8C9E9C0C4A6A /* CDBKit.m in Sources */,
-				9C0BB510792CAB5FFE95C98484ACDC31 /* CDBKitCore.m in Sources */,
-				C00178E748FB638401B0B2E75900EC3D /* CDBKitLocalize.m in Sources */,
-				6EE08B855D3D9CE5D360C94E17E52289 /* CDBKitUI.m in Sources */,
+				1F2F1B5B083AB39D5B07C719E30754F4 /* CDBKit-macOS-dummy.m in Sources */,
+				E2709F2C6BA367168569CC1416C8E520 /* CDBKit.m in Sources */,
+				384B68A01A16F82318AE194BA7B2D2DF /* CDBKitCore.m in Sources */,
+				A1B64D1BC271F0A91550B9F6C6CF7A07 /* CDBKitLocalize.m in Sources */,
+				5D3344688C57DA3116345460EC587498 /* CDBKitUI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,7 +748,7 @@
 /* Begin XCBuildConfiguration section */
 		1F83EA25610D43F6ADC54668489BEB22 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63C2DD3D3549CB0ADA07EB9D6796EB8F /* CDBKit-macOS.xcconfig */;
+			baseConfigurationReference = 8C08E153859E5FAF376FCE27B909A7AD /* CDBKit-macOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -780,7 +778,7 @@
 		};
 		4E9AA3CD0685C543460EC46E418D1388 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 629091E635A78B4895EAE3D9F000CB3B /* CDBKit-Core.xcconfig */;
+			baseConfigurationReference = 68DA874486612C4F81E3214EEEC35D40 /* CDBKit-Core.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -939,7 +937,7 @@
 		};
 		7CA632B183BA8624819660345D9F4AAE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 629091E635A78B4895EAE3D9F000CB3B /* CDBKit-Core.xcconfig */;
+			baseConfigurationReference = 68DA874486612C4F81E3214EEEC35D40 /* CDBKit-Core.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -968,7 +966,7 @@
 		};
 		A95C3EF4E7F05F36263534EFAA008EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70FB462053516FF5165996B276E4DB22 /* CDBKit-iOS.xcconfig */;
+			baseConfigurationReference = E1B7C631AE81BF7D8F71EB6FDA845891 /* CDBKit-iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1054,7 +1052,7 @@
 		};
 		BF18B038E33D76F0FDFDBACCD5AC43E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63C2DD3D3549CB0ADA07EB9D6796EB8F /* CDBKit-macOS.xcconfig */;
+			baseConfigurationReference = 8C08E153859E5FAF376FCE27B909A7AD /* CDBKit-macOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1277,7 +1275,7 @@
 		};
 		F9F71E8FDFAEE34D3E1321AB048356DE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70FB462053516FF5165996B276E4DB22 /* CDBKit-iOS.xcconfig */;
+			baseConfigurationReference = E1B7C631AE81BF7D8F71EB6FDA845891 /* CDBKit-iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
