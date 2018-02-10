@@ -1,5 +1,5 @@
 
-#import "CDBArray.h"
+#import "CDBKitArray.h"
 
 
 @implementation NSArray (CDBArray)

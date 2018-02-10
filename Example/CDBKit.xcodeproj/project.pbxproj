@@ -61,7 +61,7 @@
 		08C1ED071E969415003D7CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08C1ED091E969415003D7CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D976833B7E16E05195739E4 /* Pods-CDBKitCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDBKitCore_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDBKitCore_Example/Pods-CDBKitCore_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1123720D2D6D2BDD14F60F4F /* CDBKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CDBKit.podspec; path = ../CDBKit.podspec; sourceTree = "<group>"; };
+		1123720D2D6D2BDD14F60F4F /* CDBKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CDBKit.podspec; path = ../CDBKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1214D9911FADEAF600C46D13 /* CDBKitCore_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDBKitCore_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1214D9931FADEAF600C46D13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1214D9941FADEAF600C46D13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
