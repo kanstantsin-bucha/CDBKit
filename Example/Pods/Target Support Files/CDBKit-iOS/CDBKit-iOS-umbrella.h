@@ -11,6 +11,7 @@
 #endif
 
 #import "CDBKit.h"
+#import "CDBArray.h"
 #import "CDBKitCore.h"
 #import "CDBKitLocalize.h"
 #import "CDBKitUI.h"

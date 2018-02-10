@@ -1,11 +1,13 @@
 PODS:
-  - CDBKit (1.4.0):
-    - CDBKit/Core (= 1.4.0)
-    - CDBKit/Localize (= 1.4.0)
-    - CDBKit/UI (= 1.4.0)
-  - CDBKit/Core (1.4.0)
-  - CDBKit/Localize (1.4.0)
-  - CDBKit/UI (1.4.0)
+  - CDBKit (1.4.1):
+    - CDBKit/Array (= 1.4.1)
+    - CDBKit/Core (= 1.4.1)
+    - CDBKit/Localize (= 1.4.1)
+    - CDBKit/UI (= 1.4.1)
+  - CDBKit/Array (1.4.1)
+  - CDBKit/Core (1.4.1)
+  - CDBKit/Localize (1.4.1)
+  - CDBKit/UI (1.4.1)
 
 DEPENDENCIES:
   - CDBKit (from `../`)
@@ -16,8 +18,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CDBKit: 8d69ddee10e6d17281e1d60ed34892b2a05bea96
+  CDBKit: e789476bbd10f610f8f0e0b54cd29260bb9300ff
 
 PODFILE CHECKSUM: 9876c9d751d0c963bc20e8ae074ffe97ed841b8a
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.4.0

@@ -33,6 +33,10 @@
     };
     
     [self makeArrayWithCompletion:self.completion];
+    
+    NSLog(@"%@", [@[@"a", @"b"] map:^id _Nonnull(NSString *  _Nonnull obj) {
+        return [obj uppercaseString];
+    }]);
 }
 
 - (void)didReceiveMemoryWarning {
