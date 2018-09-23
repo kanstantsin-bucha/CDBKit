@@ -323,7 +323,6 @@
 				08C1ECF61E969415003D7CAA /* Frameworks */,
 				08C1ECF71E969415003D7CAA /* Resources */,
 				B0CF28A1904D80A4B7AA693E /* [CP] Embed Pods Frameworks */,
-				1AB63DBEF40A984A92F79265 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -343,7 +342,6 @@
 				1214D98E1FADEAF600C46D13 /* Frameworks */,
 				1214D98F1FADEAF600C46D13 /* Resources */,
 				37F125848C0CB8F32622AD65 /* [CP] Embed Pods Frameworks */,
-				B3A89D1D0040573CA4EE25B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -363,7 +361,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				5BB72CF7566C4E5E592DD4B3 /* [CP] Embed Pods Frameworks */,
-				56C08C317B741E52122101F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -382,8 +379,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				28481C75E62AADF9CE17FF2A /* [CP] Embed Pods Frameworks */,
-				46EA5F474745C632764854A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -521,43 +516,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1AB63DBEF40A984A92F79265 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod-CDBKit_Mac_Example/Pods-Pod-CDBKit_Mac_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		28481C75E62AADF9CE17FF2A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBKit_Tests/Pods-CDBKit_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		37F125848C0CB8F32622AD65 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CDBKitCore_Example/Pods-CDBKitCore_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CDBKitCore_Example/Pods-CDBKitCore_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CDBKit-Core/CDBKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -566,22 +531,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBKitCore_Example/Pods-CDBKitCore_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		46EA5F474745C632764854A5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBKit_Tests/Pods-CDBKit_Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CDBKitCore_Example/Pods-CDBKitCore_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4F54FE2EAAD9E9E899723E1B /* [CP] Check Pods Manifest.lock */ = {
@@ -602,28 +552,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		56C08C317B741E52122101F4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod-CDBKit_Example/Pods-Pod-CDBKit_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5BB72CF7566C4E5E592DD4B3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Pod-CDBKit_Example/Pods-Pod-CDBKit_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Pod-CDBKit_Example/Pods-Pod-CDBKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CDBKit-iOS/CDBKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -632,7 +567,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod-CDBKit_Example/Pods-Pod-CDBKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pod-CDBKit_Example/Pods-Pod-CDBKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		75982A46CD0BA96680B3FF1D /* [CP] Check Pods Manifest.lock */ = {
@@ -659,7 +594,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Pod-CDBKit_Mac_Example/Pods-Pod-CDBKit_Mac_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Pod-CDBKit_Mac_Example/Pods-Pod-CDBKit_Mac_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CDBKit-macOS/CDBKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -668,22 +603,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pod-CDBKit_Mac_Example/Pods-Pod-CDBKit_Mac_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B3A89D1D0040573CA4EE25B1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDBKitCore_Example/Pods-CDBKitCore_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pod-CDBKit_Mac_Example/Pods-Pod-CDBKit_Mac_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

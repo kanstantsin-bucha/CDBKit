@@ -5,11 +5,7 @@
 
 /* safe release */
  
-#define TBReleaseSafe(ref) \
-    if (ref != NULL) {\
-\
-        CFRelease(ref);\
-    }\
+#define TBReleaseSafe(ref) (if (ref != NULL) { CFRelease(ref); })
 
 /* weakify and strongify */
 
