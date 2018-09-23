@@ -3,6 +3,8 @@
 #ifndef CDBKitCore
 #define CDBKitCore
 
+#import <Foundation/Foundation.h>
+
 /* safe release */
  
 #define TBReleaseSafe(ref) (if (ref != NULL) { CFRelease(ref); })
