@@ -3,6 +3,14 @@
 #ifndef CDBKitCore
 #define CDBKitCore
 
+/* safe release */
+ 
+#define TBReleaseSafe(ref) \
+    if (ref != NULL) {\
+\
+        CFRelease(ref);\
+    }\
+
 /* weakify and strongify */
 
 #define varUsingObjCDB(modifier, ref, obj) modifier typeof(obj) ref = obj
@@ -29,7 +37,7 @@ typedef void (^CDBDataErrorCompletion) (NSData * _Nullable number, NSError * _Nu
 
 /* derived classes interface */
 
-#define derivedCDB(); \
+#define derivedCDB() \
     do{\
         printf("[%s:%d]", __FUNCTION__, __LINE__);\
         NSString * _S_ =  @"WARNING \

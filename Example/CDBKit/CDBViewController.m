@@ -18,6 +18,11 @@
     [super viewDidLoad];
 	
     
+    CFArrayRef array = (__bridge_retained CFArrayRef) @[];
+    TBReleaseSafe(array);
+    CFArrayRef nullArray = NULL;
+    TBReleaseSafe(nullArray);
+    
     weakCDB(weakSelf);
     self.completion = ^(NSArray * _Nullable array, NSError * _Nullable error) {
         
